@@ -6,7 +6,7 @@ Select a word, drag across a sentence, or triple-click a paragraph — it's inst
 
 ---
 
-## ✨ Features
+## Features
 
 - **Auto-copy on select** — highlight any text and it's copied instantly
 - **Double-click support** — double-click a word to select and copy it
@@ -21,7 +21,7 @@ Select a word, drag across a sentence, or triple-click a paragraph — it's inst
 
 ---
 
-## 📸 How It Looks
+## How It Looks
 
 | Menu Bar Icon | Copied Feedback |
 |:---:|:---:|
@@ -31,7 +31,7 @@ Select a word, drag across a sentence, or triple-click a paragraph — it's inst
 
 ---
 
-## 🚀 Install
+## Install
 
 ### Requirements
 
@@ -44,7 +44,7 @@ Select a word, drag across a sentence, or triple-click a paragraph — it's inst
 ### Build & Install
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/AutoCopy.git
+git clone https://github.com/hexodotsh/AutoCopy.git
 cd AutoCopy
 chmod +x build.sh
 ./build.sh
@@ -71,7 +71,7 @@ Or find it via Spotlight / Launchpad.
 
 ---
 
-## 🎯 Usage
+## Usage
 
 Once running, a **clipboard icon** appears in your menu bar. That's it — just select text anywhere:
 
@@ -96,7 +96,7 @@ Click the 📋 icon to access:
 
 ---
 
-## ⚙️ How It Works
+## How It Works
 
 AutoCopy uses a completely different approach from clipboard managers or Accessibility API readers — it simulates what you'd do manually:
 
@@ -113,7 +113,7 @@ This approach works universally because it uses the exact same copy mechanism as
 
 ---
 
-## ✅ Compatibility
+## Compatibility
 
 | App | Works |
 |---|:---:|
@@ -142,7 +142,7 @@ Then optionally remove Accessibility access from System Settings.
 
 ---
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 **Nothing happens when I select text**
 → Accessibility access must be granted and toggled ON for AutoCopy in System Settings → Privacy & Security → Accessibility.
@@ -161,7 +161,7 @@ Then optionally remove Accessibility access from System Settings.
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 AutoCopy/
@@ -175,6 +175,6 @@ AutoCopy/
 
 ---
 
-## 📄 License
+## License
 
 MIT — do whatever you want with it.
